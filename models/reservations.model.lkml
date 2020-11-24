@@ -11,6 +11,8 @@ persist_with: reservations_default_datagroup
 
 explore: buildings {}
 
+# explore: guest_analysis {}
+
 explore: reservations {
   join: buildings {
     type: left_outer

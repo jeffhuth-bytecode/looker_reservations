@@ -3,17 +3,20 @@ view: buildings {
   drill_fields: [details*]
 
   dimension: building_name {
+    description: "Name of the building the unit is in"
     type: string
     primary_key: yes
     sql: ${TABLE}.Building_Name ;;
   }
 
   dimension: kasa_units {
+  description: "Number of active units Kasa has in each building"
     type: number
     sql: ${TABLE}.Kasa_Units ;;
   }
 
   dimension: metro {
+    description: "Major metro the building is located in"
     type: string
     sql: ${TABLE}.Metro ;;
   }

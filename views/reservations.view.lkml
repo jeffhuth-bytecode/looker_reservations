@@ -111,7 +111,7 @@ view: reservations {
   }
 
   dimension: guest_id {
-    description: "Unique ID assigned to each Kasa guest"
+    description: "Unique ID assigned to each guest"
     type: string
     sql: ${TABLE}.Guest_ID ;;
   }

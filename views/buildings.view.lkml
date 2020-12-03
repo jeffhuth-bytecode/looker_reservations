@@ -10,7 +10,7 @@ view: buildings {
   }
 
   dimension: kasa_units {
-  description: "Number of active units Kasa has in each building"
+  description: "Number of active units in each building"
     type: number
     sql: ${TABLE}.Kasa_Units ;;
   }
